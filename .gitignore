@@ -7,9 +7,47 @@
 # Ignore bundler config
 /.bundle
 
+*.rdb
+
 # Ignore the default SQLite database.
 /db/*.sqlite3
 
+# Ignore the stupid schema.rb
+/db/schema.rb
+
+# Ignore sql files in seed(for now)
+
+/db/seed/*.sql
+
+# Style photos
+public/uploads
+
+# Ignore assets if precompiling
+
+/public/assets
+/public/system
+
 # Ignore all logfiles and tempfiles.
 /log/*.log
+/log/*.pid
 /tmp
+/.idea
+
+/.rvmrc
+/coverage/*
+/config/database.yml
+
+#production needs this file
+#/config/mongoid.yml
+
+# Sphynx files
+/config/development.sphinx.conf
+/config/sphinx.yml
+/db/sphinx/development/*.*
+/db/sphinx/production/*.*
+*.swp
+*.swo
+Session*.vim
+
+temp_files
+.DS_Store
