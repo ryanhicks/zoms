@@ -28,7 +28,7 @@ body {
 }
 
 .app {
-    background-image:url(../img/cordova.png);
+    background-image:url(../img/the_death_by_joe_roberts.jpg);
     background-repeat:no-repeat;
     margin:0px auto;
     width:275px;
@@ -41,6 +41,8 @@ h1 {
     overflow:visible;
     padding:0px;
     text-align:center;
+    color: #fff;
+    text-shadow: black 2px 2px 0px;
 }
 
 .status {
@@ -54,6 +56,10 @@ h1 {
     text-align:center;
     width:100%;
     max-width:175px;
+}
+
+#serverready {
+  margin-top: 5px;
 }
 
 .status.complete {
@@ -84,7 +90,7 @@ h1 {
 /* portrait */
 /* @media screen and (max-aspect-ratio: 1/1) */
 .app {
-    background-position:center top;
+    background-position: -8px -212px;
     height:100px;              /* adds enough room for text */
     padding:180px 0px 0px 0px; /* background height - shadow offset */
 }
@@ -92,7 +98,7 @@ h1 {
 /* lanscape (when wide enough) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:445px) {
     .app {
-        background-position:left center;
+        background-position: -8px -212px;
         height:140px;       /* height + padding = background image size */
         padding-left:170px; /* background width */
         padding-top:60px;   /* center the text */
